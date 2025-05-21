@@ -40,9 +40,9 @@
 
         <div class="form-links">
           <a href="#">Forgot password?</a>
-HEAD
+<<<<<<< HEAD
  
-
+=======
            <a href="#">Sign up</a>
         </div>
 
@@ -75,4 +75,4 @@ HEAD
   <script src="script.js"></script>
 </body>
 </html>
- p1
+>>>>>>> p1
