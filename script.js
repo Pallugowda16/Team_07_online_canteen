@@ -33,3 +33,6 @@ document.getElementById("loginForm").addEventListener("submit", function (e) {
   }
 
     if (document.getElementById("rememberMe").checked)
+    {
+    localStorage.setItem("rememberedEmail", email);
+  } 
