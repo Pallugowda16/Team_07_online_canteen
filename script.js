@@ -19,4 +19,10 @@ document.getElementById("loginForm").addEventListener("submit", function (e) {
     const spinner = document.getElementById("spinner");
 
   spinner.style.display = "block";
-	
+
+  if (!email || !password) {
+    alert("Please fill in all fields.");
+    spinner.style.display = "none";
+    return;
+  }
+
