@@ -39,3 +39,6 @@ document.getElementById("loginForm").addEventListener("submit", function (e) {
     localStorage.removeItem("rememberedEmail");
   }
  
+  setTimeout(() => {
+    spinner.style.display = "none";
+
