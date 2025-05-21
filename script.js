@@ -26,3 +26,6 @@ document.getElementById("loginForm").addEventListener("submit", function (e) {
     return;
   }
 
+ if (password.length < 6) {
+    alert("Password must be at least 6 characters.");
+
