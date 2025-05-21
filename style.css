@@ -101,3 +101,10 @@ form input {
   margin-right: 5px;
 }
 
+.form-links {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+
+
