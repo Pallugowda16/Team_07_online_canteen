@@ -28,4 +28,28 @@ document.getElementById("loginForm").addEventListener("submit", function (e) {
 
  if (password.length < 6) {
     alert("Password must be at least 6 characters.");
+     spinner.style.display = "none";
+    return;
+  }
 
+    if (document.getElementById("rememberMe").checked)
+    {
+    localStorage.setItem("rememberedEmail", email);
+  }else {
+    localStorage.removeItem("rememberedEmail");
+  }
+ 
+  setTimeout(() => {
+    spinner.style.display = "none";
+       window.location.href = "menu.html";
+  }, 1500);
+});
+
+window.addEventListener("DOMContentLoaded", () => {
+  const savedEmail = localStorage.getItem("rememberedEmail");
+  if (savedEmail){
+    document.getElementById("email").value = savedEmail;
+   
+document.getElementById("rememberMe").checked = true;
+  }
+});	  
