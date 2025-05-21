@@ -97,3 +97,7 @@ form input {
   margin-top: 1rem;
 }
 
+.remember-me input {
+  margin-right: 5px;
+}
+
