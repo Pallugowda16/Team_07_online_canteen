@@ -32,3 +32,4 @@ document.getElementById("loginForm").addEventListener("submit", function (e) {
     return;
   }
 
+    if (document.getElementById("rememberMe").checked)
