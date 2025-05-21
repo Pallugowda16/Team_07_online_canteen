@@ -83,3 +83,7 @@ form input {
   position: relative;
 }
 
+.toggle-password {
+  position: absolute;
+  right: 10px;
+
