@@ -149,3 +149,8 @@ button:hover {
   100% { transform: rotate(360deg); }
 }
 
+.faq-section {
+  background: #fff;
+  padding: 2rem;
+  margin: 2rem auto;
+
