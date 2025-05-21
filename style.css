@@ -44,3 +44,8 @@ main {
   padding: 2rem;
 }
 
+.login-container {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+
