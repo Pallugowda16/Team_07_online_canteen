@@ -47,4 +47,6 @@ document.getElementById("loginForm").addEventListener("submit", function (e) {
 
 window.addEventListener("DOMContentLoaded", () => {
   const savedEmail = localStorage.getItem("rememberedEmail");
-  if (savedEmail)
+  if (savedEmail){
+    document.getElementById("email").value = savedEmail;
+    
