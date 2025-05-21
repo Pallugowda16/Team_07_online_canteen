@@ -49,4 +49,7 @@ window.addEventListener("DOMContentLoaded", () => {
   const savedEmail = localStorage.getItem("rememberedEmail");
   if (savedEmail){
     document.getElementById("email").value = savedEmail;
-    
+   
+document.getElementById("rememberMe").checked = true;
+  }
+});	  
