@@ -10,4 +10,8 @@ function togglePassword() {
     toggleText.textContent = "Show";
   }
 }
- 	
+
+document.getElementById("loginForm").addEventListener("submit", function (e) {
+  e.preventDefault();
+
+
