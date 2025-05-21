@@ -180,3 +180,7 @@ footer a {
   margin: 0 10px;
 }
 
+
+footer a:hover {
+  text-decoration: underline;
+}
