@@ -91,4 +91,9 @@ form input {
   color: #555;
 }
 
+.remember-me {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
 
