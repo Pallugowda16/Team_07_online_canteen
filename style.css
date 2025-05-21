@@ -132,3 +132,8 @@ button:hover {
   background-color: #218838;
 }
 
+.spinner {
+  display: none;
+  margin: 1rem auto;
+  border: 4px solid #f3f3f3;
+
