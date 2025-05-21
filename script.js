@@ -41,4 +41,7 @@ document.getElementById("loginForm").addEventListener("submit", function (e) {
  
   setTimeout(() => {
     spinner.style.display = "none";
+       window.location.href = "menu.html";
+  }, 1500);
+});
 
